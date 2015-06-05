@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title - My Story Maker</title>
+    @Scripts.Render("~/bundles/modernizr")
+    @Styles.Render("~/Content/css")
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/PhotoGallery.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/StoryMaker.css" rel="stylesheet" type="text/css">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" />
+
+
+</head>
+<body class="LayoutHead full-width ">
+    <div id="header-right">
+        @Html.Partial("_LoginPartial")
+        <br class="clear">
+    </div>
+    <div><h1 id="homeHeader">My Story Maker</h1></div>
+    <div id="full-site-content" style="opacity: 1;">
+
+        <div id="myPage">
+
+            <header id="masthead" class="site-header " role="banner"></header>
+            <div id="main" class="wrapper">
+                <div id="primary" class="site-content">
+                    <hr style="width:90%" />
+                    <div id="menubar">
+                        <ul class="menulist">
+                            <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Help", "Help", "Home")</li>
+                        </ul>
+                    </div>
+                    <hr style="width:90%" />
+                    <br clear="all">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container" class="isotope" style="position: relative; overflow: hidden; height: 1800px;">
+        @RenderBody()
+
+    </div>
+    <footer id="colophon">
+        <div class="wrapper">
+            <div class="copy widget">
+                <div>Copyright © 2015 Lei Chen. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

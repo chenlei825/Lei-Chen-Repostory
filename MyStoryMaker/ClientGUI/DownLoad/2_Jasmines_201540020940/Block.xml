@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story>
+  <block>
+    <id>1</id>
+    <storyId>2</storyId>
+    <caption> Princess Jasmine lived with her father and her tiger</caption>
+    <image>~/StoryDataBase/StoryRepos/2/2.jpg</image>
+    <text>Deep in the Arabian Desert, Princess Jasmine lived with her father, the Sultan of Agrabah, and her tiger, Rajah.
+
+The Sultan had said Jasmine must marry a prince—and soon. But Jasmine wanted to marry for love, not just to make her father happy!</text>
+  </block>
+  <block>
+    <id>2</id>
+    <storyId>2</storyId>
+    <caption>A young man named Aladdin. His best friend was a monkey he called Abu.</caption>
+    <image>~/StoryDataBase/StoryRepos/2/3.jpg</image>
+    <text>In a nearby village, there lived a young man named Aladdin. His best friend was a monkey he called Abu.
+
+Aladdin was poor, but he had big dreams. "Someday," he told Abu, "we will live in a palace!"</text>
+  </block>
+  <block>
+    <id>3</id>
+    <storyId>2</storyId>
+    <caption>Alddin met Jasmine and stepped in to her trouble and  protected her.</caption>
+    <image>~/StoryDataBase/StoryRepos/2/4.jpg</image>
+    <text>Jasmine refused to be married. So she disguised herself as a peasant and left home.In the marketplace, she accidentally stole an apple. A guard grabbed Jasmine, but Aladdin stepped in to protect her.</text>
+  </block>
+  <block>
+    <id>4</id>
+    <storyId>2</storyId>
+    <caption>Jasmine's decided to run away from the palace.</caption>
+    <image>~/StoryDataBase/StoryRepos/2/5.jpg</image>
+    <text>Aladdin took Jasmine to his home. As they talked, they discovered they each dreamed of living a life different than their own."I ran away, and I am not going back," said Jasmine.</text>
+  </block>
+  <block>
+    <id>5</id>
+    <storyId>2</storyId>
+    <caption>Then the palace guards seized Aladdin</caption>
+    <image>~/StoryDataBase/StoryRepos/2/6.jpg</image>
+    <text>Then the palace guards burst in and seized Aladdin! Jasmine revealed herself as the princess and demanded Aladdin be freed.To her shock, the guards refused. Aladdin was taken away.</text>
+  </block>
+  <block>
+    <id>6</id>
+    <storyId>2</storyId>
+    <caption>laddin met an old man</caption>
+    <image>~/StoryDataBase/StoryRepos/2//7.jpg</image>
+    <text>While locked in the palace dungeon, Aladdin met an old man who helped him escape.The man took Aladdin and Abu to the Cave of Wonders. He wanted Aladdin to retrieve a magic lamp hidden inside.</text>
+  </block>
+  <block>
+    <id>7</id>
+    <storyId>2</storyId>
+    <caption> Aladdin went to the Cave of Wonders.</caption>
+    <image>~/StoryDataBase/StoryRepos/2/7.jpg</image>
+    <text>The man took Aladdin and Abu to the Cave of Wonders. He wanted Aladdin to retrieve a magic lamp hidden inside.Aladdin and Abu found the lamp and a magic carpet! But as they left, the Cave began to rumble and shake and turn into molten lava!At the entrance, the old man wouldn't help them. He was really the Sultan's evil assistant, Jafar!</text>
+  </block>
+  <block>
+    <id>8</id>
+    <storyId>2</storyId>
+    <caption>A genie whirled out of the lamp</caption>
+    <image>~/StoryDataBase/StoryRepos/2//9.jpg</image>
+    <text>Though stuck in the Cave, Abu had tricked Jafar and kept the magic lamp for Aladdin.When Aladdin rubbed it, a genie whirled out of the lamp to rescue them from the Cave and to grant Aladdin three wishes!</text>
+  </block>
+  <block>
+    <id>9</id>
+    <storyId>2</storyId>
+    <caption>Aladdin's first wish was to be a prince</caption>
+    <image>~/StoryDataBase/StoryRepos/2//10.jpg</image>
+    <text>Aladdin's first wish was to be a prince. Disguised as a wealthy prince visiting from another kingdom, Aladdin went to see Princess Jasmine once again.That night, Aladdin took Jasmine on a magic carpet ride that they would never forget.</text>
+  </block>
+  <block>
+    <id>10</id>
+    <storyId>2</storyId>
+    <caption>Flying over deserts</caption>
+    <image>~/StoryDataBase/StoryRepos/2//10.jpg</image>
+    <text>Flying over deserts, mountains, and seas, Jasmine and Aladdin discovered a whole new world.The wonder and magic of the night brought them closer together. They were falling in love.</text>
+  </block>
+  <block>
+    <id>11</id>
+    <storyId>2</storyId>
+    <caption>Good night, my handsome prince</caption>
+    <image>~/StoryDataBase/StoryRepos/2//11.jpg</image>
+    <text>"Good night, my handsome prince," whispered Jasmine at the end of their flight.Then Aladdin kissed her. Aladdin was so happy, he felt as if he was floating on air.</text>
+  </block>
+  <block>
+    <id>12</id>
+    <storyId>2</storyId>
+    <caption>Jafar had an evil plan. </caption>
+    <image>~/StoryDataBase/StoryRepos/2//13.jpg</image>
+    <text>But Jafar had an evil plan. He ordered his guards to throw Aladdin into the sea.Aladdin used his second wish to have the Genie rescue him. But then Jafar stole the magic lamp!</text>
+  </block>
+  <block>
+    <id>13</id>
+    <storyId>2</storyId>
+    <caption>Now the Genie had to serve Jafar! </caption>
+    <image>~/StoryDataBase/StoryRepos/2//14.jpg</image>
+    <text>Now the Genie had to serve Jafar! And the wicked sorcerer was holding Jasmine prisoner!As Aladdin sneaked into the palace to save her, Jasmine used her charms to distract Jafar.</text>
+  </block>
+  <block>
+    <id>14</id>
+    <storyId>2</storyId>
+    <caption>Aladdin tricked Jafar</caption>
+    <image>~/StoryDataBase/StoryRepos/2//15.jpg</image>
+    <text>Aladdin tricked Jafar into using one of his wishes. "I wish to be an all-powerful genie!" proclaimed Jafar.</text>
+  </block>
+  <block>
+    <id>15</id>
+    <storyId>2</storyId>
+    <caption>Princess Jasmine chose to marry her one true love</caption>
+    <image>~/StoryDataBase/StoryRepos/2//16.jpg</image>
+    <text>He became an evil genie, and Aladdin trapped him inside a magic lamp for all time!The Sultan told Jasmine that she could marry whomever she chose. Princess Jasmine chose to marry her one true love—Aladdin!</text>
+  </block>
+  <block>
+    <id>16</id>
+    <storyId>2</storyId>
+    <caption>Aladdin trapped him inside a magic lamp for all time!</caption>
+    <image>~/StoryDataBase/StoryRepos/2//17.jpg</image>
+    <text>He became an evil genie, and Aladdin trapped him inside a magic lamp for all time!</text>
+  </block>
+</story>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<collages>
+  <collage>
+    <id>1</id>
+    <storyId>1</storyId>
+    <name>Cinderella_Coll1</name>
+    <caption>This is the first collage of Cinderella's story</caption>
+    <blocks>
+      <block>
+        <id>1</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>2</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>3</id>
+        <storyId>1</storyId>
+      </block>
+    </blocks>
+  </collage>
+</collages>

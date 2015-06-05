@@ -1,0 +1,67 @@
+﻿@model MyStoryMaker.Models.CollagesModels
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+<h2>Edit Collage Information</h2>
+
+      
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+      
+    <div class="form-horizontal">
+        <h4>CollagesModels</h4>
+
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.name, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.name)
+                @Html.ValidationMessageFor(model => model.name)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.caption, new { @class = "control-label col-md-2" })
+            <div style="width:560px" class="col-md-10">
+                @Html.TextAreaFor(model => model.caption, new { @cols = 200, @rows = 3, @id = "StoryText", @style = "width:560px" })
+                @Html.ValidationMessageFor(model => model.caption)
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", new { id = Model.storyId }, null)
+</div>
+
+
+
+<script>
+    //var delList = [];
+    //function keepChecked(id) {
+    //    delList.push(id);
+    //}
+
+    //function delBlock(usedList){
+    //    delList.sort();
+    //    usedList.sort();
+    //    if (usedList != null) {
+    //        usedList = usedList.filter(function (val) {
+    //            return delList.indexOf(val) == -1;
+    //        });
+    //    }
+    //    location.reload();
+    //    return usedList;
+    //}
+</script>

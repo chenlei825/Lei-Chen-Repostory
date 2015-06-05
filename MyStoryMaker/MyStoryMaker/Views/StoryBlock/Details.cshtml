@@ -1,0 +1,33 @@
+﻿@model MyStoryMaker.Models.BlockModels
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<style>
+    displayed {
+        display: block;
+        margin-left: auto;
+        margin-right: auto }
+</style>
+
+<h2>Details</h2>
+
+<div>
+    <h4>BlockModels</h4>
+	<hr />
+    <div style=" float: left">
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id, storyId = Model.storyId }, null) |
+        @Html.ActionLink("Back to List", "Index", new { id = Model.storyId }, null)
+    </div>
+
+    <div class="displayed col-md-10 col-md-3" style="margin-left:10%;margin-bottom: 10px">
+        <div class="thumbnail">
+            <img src="@Url.Content(Model.imgLink)" alt="Image Not Found">
+            <div class="caption">
+                <h5 class="downright" style="margin-bottom:25px">@Url.Content(Model.text)</h5>
+            </div>
+        </div>
+    </div>
+</div>
+

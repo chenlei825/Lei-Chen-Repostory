@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stories>
+  <story>
+    <id>1</id>
+    <title>Cinderella</title>
+    <author>Lei Chen</author>
+    <createTime>5/1/2015 1:57 PM</createTime>
+    <genre>Fairytale</genre>
+    <description>Cinderella is a kind girl</description>
+  </story>
+  <story>
+    <id>2</id>
+    <title>Jasmines</title>
+    <author>Lei Chen</author>
+    <createTime>4/30/2015 10:00 PM</createTime>
+    <genre>Fairytale</genre>
+    <description>Jasmines is a lovely girl</description>
+  </story>
+  <story>
+    <id>3</id>
+    <title>Green Lake</title>
+    <author>Lei Chen</author>
+    <createTime>5/2/2015 1:35 AM</createTime>
+    <genre>Journeys</genre>
+    <description>Beautiful scenery of Green Lake</description>
+  </story>
+</stories>

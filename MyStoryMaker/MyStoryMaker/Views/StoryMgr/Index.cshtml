@@ -1,0 +1,71 @@
+﻿@model IEnumerable<MyStoryMaker.Models.StoryModels>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm("FilePathDownload", "StoryMgr", FormMethod.Post))
+{
+<h2>Index</h2>
+
+
+<div class=" blocks">
+    <input type="submit" value="Download" class="glyphicon glyphicon-download btn btn-info navbar-btn" />
+    @Html.ActionLink("UnarchiveAll", "AchiveRelief", "StoryMgr", new { @class = "glyphicon glyphicon-share-alt btn btn-info navbar-btn" })
+    
+    @Html.ActionLink("Create New", "Create")
+    </div>
+
+        <table class="table">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.author)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.genre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.createTime)
+                </th>
+                <th></th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.genre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.createTime)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.id }, new { @class = "glyphicon glyphicon-edit" }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.id }, new { @class = "glyphicon glyphicon-zoom-in" }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.id }, new { @class = "glyphicon glyphicon-trash" }) |
+                        @Html.ActionLink("Block", "Index", "StoryBlock", new { id = item.id }, new { @class = "glyphicon glyphicon-th" }) |
+                        @Html.ActionLink("Collage", "Index", "Collage", new { id = item.id }, new { @class = "glyphicon glyphicon-file" }) |
+                        @Html.ActionLink("Achive", "Achive", new { id = item.id }, new { @class = "glyphicon glyphicon-file" }) |
+                        <input name="downItems" value='@item.id' type="checkbox">
+                        <label for='@item.id' style="color: blue;font-weight: normal">Download</label>
+                        
+                    </td>
+                </tr>
+            }
+        </table>
+}

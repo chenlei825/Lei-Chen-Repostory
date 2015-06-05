@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Images>
+  <image>
+    <id>1</id>
+    <name>4.jpg</name>
+    <link>4/4.jpg</link>
+    <descriptions />
+  </image>
+  <image>
+    <id>2</id>
+    <name>5.jpg</name>
+    <link>~/StoryDataBase/StoryRepos/4/5.jpg</link>
+    <descriptions />
+  </image>
+</Images>

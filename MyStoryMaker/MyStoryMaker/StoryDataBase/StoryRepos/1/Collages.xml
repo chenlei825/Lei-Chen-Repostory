@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<collages>
+  <collage>
+    <id>1</id>
+    <storyId>1</storyId>
+    <name>Cinderella_Coll1</name>
+    <caption>This is the first collage of the Cinderella's story</caption>
+    <blocks>
+      <block>
+        <id>4</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>5</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>6</id>
+        <storyId>1</storyId>
+      </block>
+    </blocks>
+  </collage>
+  <collage>
+    <id>2</id>
+    <storyId>1</storyId>
+    <name>Cinderella_Coll2</name>
+    <caption>This is the second collage of Cinderella's story</caption>
+    <blocks>
+      <block>
+        <id>11</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>12</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>13</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>14</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>15</id>
+        <storyId>1</storyId>
+      </block>
+    </blocks>
+  </collage>
+  <collage>
+    <id>3</id>
+    <storyId>1</storyId>
+    <name>Cinderella_Coll3</name>
+    <caption>This is the third collage of the Cinderella's story</caption>
+    <blocks>
+      <block>
+        <id>9</id>
+        <storyId>1</storyId>
+      </block>
+      <block>
+        <id>10</id>
+        <storyId>1</storyId>
+      </block>
+    </blocks>
+  </collage>
+</collages>

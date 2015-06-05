@@ -1,0 +1,57 @@
+﻿<Window x:Class="ClientGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid>
+        <Grid>
+            <TabControl HorizontalAlignment="Left" Height="370" VerticalAlignment="Top" Width="592">
+                <TabItem Header="LogIn/LogOut" Width="100" Margin="0,0,0,-3">
+                    <Grid Background="#FFE5E5E5" Margin="0,0,0,0">
+                        <Label Content="Useraname: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                        <TextBox x:Name="textbox_username" HorizontalAlignment="Left" Height="23" Margin="90,13,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210"/>
+                        <Label Content="Password: " HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+                        <TextBox x:Name="textbox_password" HorizontalAlignment="Left" Height="23" Margin="90,43,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="210"/>
+                        <Button x:Name="login" Content="Login" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="75" Click="login_Click"/>
+                        <Button x:Name="logout" Content="Logout" HorizontalAlignment="Left" Margin="108,73,0,0" VerticalAlignment="Top" Width="75" Click="logout_Click" RenderTransformOrigin="0.98,0.409"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Download Story" Width="100" Margin="-3,0,3,-3" RenderTransformOrigin="0.5,0.5">
+                    <TabItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform Angle="0.295"/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </TabItem.RenderTransform>
+                    <Grid Background="#FFE5E5E5" Margin="0,1,0,-1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="235*"/>
+                            <ColumnDefinition Width="347*"/>
+                        </Grid.ColumnDefinitions>
+                        <ListBox Name="listOfStory" HorizontalAlignment="Left" Height="269" Margin="10,10,0,0" VerticalAlignment="Top" Width="562" Grid.ColumnSpan="2"/>
+                        <Button Name="getStory" Content="Get/Refresh" HorizontalAlignment="Left" Margin="10,293,0,0" VerticalAlignment="Top" Width="264" Height="35" Click="getStory_Click" Grid.ColumnSpan="2"/>
+                        <Button Name="download" Content="Download" HorizontalAlignment="Left" Margin="73,293,0,0" VerticalAlignment="Top" Width="264" Height="35" Click="download_Click" Grid.Column="1"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Upload Block" Width="100" Margin="-3,0,3,-3" RenderTransformOrigin="0.73,0.522">
+                    <Grid Background="#FFE5E5E5" Margin="0,2,0,-2">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="10*"/>
+                            <ColumnDefinition Width="165*"/>
+                            <ColumnDefinition Width="407*"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBox Name="filespec" HorizontalAlignment="Left" Height="23" Margin="2,137,0,0" TextWrapping="Wrap" Text="Choose Image" VerticalAlignment="Top" Width="447" Grid.ColumnSpan="2" RenderTransformOrigin="0.494,2.696" Grid.Column="1"/>
+                        <Button Name="browse" Content="Browse" HorizontalAlignment="Left" Margin="297,137,0,0" VerticalAlignment="Top" Width="100" Click="browse_Click" Grid.Column="2" Height="22"/>
+                        <TextBox Name="caption" HorizontalAlignment="Left" Height="28" Margin="2,165,0,0" TextWrapping="Wrap" Text="Enter Image Caption here" VerticalAlignment="Top" Width="562" Grid.ColumnSpan="2" RenderTransformOrigin="0.514,1.411" Grid.Column="1"/>
+                        <TextBox Name="bText" HorizontalAlignment="Left" Height="103" Margin="2,198,0,0" TextWrapping="Wrap" Text="Enter Block Text Here" VerticalAlignment="Top" Width="562" RenderTransformOrigin="0.496,1.393" Grid.ColumnSpan="2" Grid.Column="1"/>
+                        <Button Name="getStory2" Content="Get/Refresh" HorizontalAlignment="Left" Margin="2,306,0,0" VerticalAlignment="Top" Width="260" Height="25" Grid.ColumnSpan="2" Grid.Column="1" Click="getStory_Click"/>
+                        <Button Name="upload" Content="Upload" HorizontalAlignment="Left" Margin="137,306,0,0" VerticalAlignment="Top" Width="260" Height="25" Click="upload_Click" Grid.Column="2" RenderTransformOrigin="0.176,0.52"/>
+                        <ListBox Name="uploadStoryId" Grid.Column="1" HorizontalAlignment="Left" Height="122" Margin="2,10,0,0" VerticalAlignment="Top" Width="560" RenderTransformOrigin="-0.15,-0.12" Grid.ColumnSpan="2" />
+                    </Grid>
+                </TabItem>
+            </TabControl>
+
+        </Grid>
+    </Grid>
+</Window>

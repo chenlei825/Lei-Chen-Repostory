@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story>
+  <block>
+    <id>1</id>
+    <storyId>2</storyId>
+    <caption> Princess Jasmine lived with her father and her tiger</caption>
+    <image>~/StoryDataBase/StoryRepos/2/2.jpg</image>
+    <text>Deep in the Arabian Desert, Princess Jasmine lived with her father, the Sultan of Agrabah, and her tiger, Rajah.
+
+The Sultan had said Jasmine must marry a prince—and soon. But Jasmine wanted to marry for love, not just to make her father happy!</text>
+  </block>
+  <block>
+    <id>2</id>
+    <storyId>2</storyId>
+    <caption>A young man named Aladdin. His best friend was a monkey he called Abu.</caption>
+    <image>~/StoryDataBase/StoryRepos/2/3.jpg</image>
+    <text>In a nearby village, there lived a young man named Aladdin. His best friend was a monkey he called Abu.
+
+Aladdin was poor, but he had big dreams. "Someday," he told Abu, "we will live in a palace!"</text>
+  </block>
+  <block>
+    <id>3</id>
+    <storyId>2</storyId>
+    <caption>Alddin met the beautiful Princess， he stepped in to her trouble and  protected her.</caption>
+    <image>~/StoryDataBase/StoryRepos/2/4.jpg</image>
+    <text>Jasmine refused to be married. So she disguised herself as a peasant and left home.In the marketplace, she accidentally stole an apple. A guard grabbed Jasmine, but Aladdin stepped in to protect her.</text>
+  </block>
+  <block>
+    <id>4</id>
+    <storyId>2</storyId>
+    <caption>Jasmine's decision</caption>
+    <image>~/StoryDataBase/StoryRepos/2/5.jpg</image>
+    <text>Aladdin took Jasmine to his home. As they talked, they discovered they each dreamed of living a life different than their own."I ran away, and I am not going back," said Jasmine.</text>
+  </block>
+</story>

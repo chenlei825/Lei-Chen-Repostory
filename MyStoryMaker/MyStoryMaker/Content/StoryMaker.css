@@ -1,0 +1,301 @@
+﻿/*Begin:Story Maker Home Page*/
+#homeHeader {
+    font-family: 'Tangerine', fantasy;
+    font-weight: 400;
+    font-size: 90px;
+    text-shadow: 5px 5px 5px #aaa;
+    text-align: center;
+    padding-top:32px;
+    padding-bottom: 10px;
+    margin: -15px;
+}
+
+
+#Intro .widget
+{
+    float:left;border:solid 4px #fff;background:#fff;
+    border-radius:10px;margin-right:10px;box-shadow:0 0 5px rgba(0,0,0,0.5);
+    height:300px;color:#006e92;font-style:normal;padding:25px 25px 0 25px;
+    font-size:13px;font-family:'Muli';position:relative;
+}
+
+#Intro .widget h2.widgettitle{
+    font-size:18px;font-weight:bold;text-transform:uppercase;
+    letter-spacing:-0.05em;font-family:'Dancing Script', cursive;
+    color:#01506a;font-style:normal}
+
+#text-6.widget.widget_text h2{margin-left:20px}
+
+#Intro .widget.intro
+{
+ width:800px;padding-right:20px;
+ background:url(../Images/footer-boxes-background_03.jpg);
+ padding-left:70px
+}
+
+#Intro .widget span.more
+{display:block;position:absolute;left:-11px;top:-8px;
+ text-indent:-9999px;width:103px;height:109px;background-position:-353px 0}
+
+
+#Intro .widget.register #mc_embed_signup form {
+    height: 90px;
+}
+
+#Intro .widget.register {
+    width: 305px;
+    background: url(../Images/footer-boxes-background_05.jpg);
+}
+
+
+#Intro .widget.signin {
+    width: 305px;
+    background: url(../Images/footer-boxes-background_07.jpg);
+}
+
+body.LayoutHead {
+    background: url(../Images/07_01_storyline_v2b-interior-bg.jpg) no-repeat center 2px;
+    margin: 0 auto 5px 0px;
+    display: block;
+}
+
+body.home {
+    background: url(../Images/castle.jpg) no-repeat center 2px;
+    margin-top: 50px;
+    display: block;
+}
+
+
+#myPage{padding-top:100px}
+
+footer #colophon{font-style:normal}
+
+footer {
+    width: 100%;
+    min-height: 450px;
+    bottom: 0;
+    left: 0;
+    background: url(../Images/Footer_10-5-13.jpg) repeat-x center bottom;
+}
+
+footer.wrapper {
+        width: 100%;
+        max-width: 1015px;
+        margin: 20px auto 0;
+    }
+
+.copy.widget {
+    color: #fff;
+    text-shadow: 1px 1px 3px #3b2f1b;
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size:15px;
+}
+
+.site-content {
+    margin: 24px 0 0;
+    margin: 1.714285714rem 0 0;
+}
+
+.home #primary.site-content {
+    width: 100% !important;
+}
+#primary.site-content {
+    width: 65.1042%;
+}
+.full-width #primary.site-content {
+    width: 100%;
+}
+
+#main.wrapper {
+    margin-top: 0px;
+}
+
+#full-site-content{opacity:0}
+
+#container.isotope {
+    margin: 0 3%;
+}
+
+.ls-animating {
+    display: block !important;
+}
+
+
+header #masthead{position:absolute;left:0;top:0px;width:100%;padding:0;z-index:9999}
+header #masthead .wrapper{width:100%;max-width:1010px;margin:0 auto}
+.site-header{margin-bottom:70px;margin-bottom:5.142857143rem;text-align:left}
+
+.site-header a.sort-links{color:#fff;cursor:pointer;font-family:'cherry swash',cursive;font-style:italic}
+.site-header h1.read a.sort-links{transform:rotate(-4deg);-webkit-transform:rotate(356deg);-moz-transform:rotate(356deg);-o-transform:rotate(356deg)}.layersliderhome{margin:26px
+auto}
+
+.ls-inner, .ls-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.ls-inner {
+    position: relative;
+    background-position: center center;
+    z-index: 2;
+}
+
+.ls-slide, .ls-layer {
+    position: absolute;
+    display: none;
+    background-position: center center;
+    overflow: hidden;
+}
+.ls-active,.ls-animating{display:block !important}
+.ls-slide > * {
+    position: absolute;
+    line-height: normal;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+.ls-slide .ls-bg {
+    left: 0px;
+    top: 0px;
+    transform: none !important;
+    -o-transform: none !important;
+    -ms-transform: none !important;
+    -moz-transform: none !important;
+    -webkit-transform: none !important;
+}
+
+#header-right{float:right;width:180px;margin-top:0px;margin-right:1%}
+
+
+/* End:Story Maker Home Page*/
+
+
+
+/*Lei Chen's Home frame*/
+
+#topCenter {
+    font-family: 'Tangerine', fantasy;
+    font-weight: 400;
+    font-size: 90px;
+    text-shadow: 5px 5px 5px #aaa;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-top: 50px;
+}
+
+/*developer introduction frame*/
+.downright{
+    font-family: 'Open Sans';
+    font-weight: 200;
+    margin-bottom:30px;
+    text-align: center
+}
+
+/*List style type*/
+.listcircle{
+     list-style-type: circle;
+     margin-left: 20px;
+     margin-top: 5px;
+}
+
+/*List style type*/
+.listdisk{
+     list-style-type: disc;
+     list-style-position: inside;
+}
+
+/*Display style type*/
+.horizontalDisplay{
+    display: inline;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size:20px;
+}
+
+/*menu container style type*/
+#menubar{
+    font-family: 'Open Sans'; 
+    text-align: left;
+    width: 100%;
+    position:relative;
+    overflow: visible;
+}
+
+/*menu item style type*/
+.menulist{
+    padding:0;
+    margin:0 40px 0 100px;
+    list-style:none;
+    background:#fff;
+}
+
+/*Drop down menu item style type*/
+.menulist ul{
+    padding:0;
+    margin:0 40px 0 20px;
+    list-style:none;
+    background:#fff;
+}
+
+
+.menulist li a:hover {
+ background: #ddd
+}
+
+.menulist li{
+  float:left;
+  font-family:cherry swash; 
+  font-size:large;
+}
+
+.menulist a {
+    display:block;
+    padding:4px;
+    width:5em;
+    text-decoration:none;
+    margin-bottom:2px;
+    margin-top:2px;
+    text-align: center;
+}
+
+.menulist li ul 
+{
+    position:absolute;
+    width:5em;
+    left:-999em;
+    text-align:center;
+}
+
+/* Center of Home */
+#maincenter{
+    float: left;
+    width: 80%;
+    height:inherit;
+}
+
+#wrapper {
+    overflow: hidden;
+}
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+/* left part of Home */
+#leftbar{
+    float: left;
+    width: 20%;
+}
+
+/* rigth part of Home */
+#rightbar{
+    float: right;
+    width: 20%;
+}

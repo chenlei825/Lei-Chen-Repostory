@@ -1,0 +1,177 @@
+﻿@model MyStoryMaker.Models.BlockModels
+
+@{
+    ViewBag.Title = "Create";
+}
+<script src="~/Scripts/jquery-1.7.1.js"></script>
+<script type="text/javascript">
+    var files;
+    var storedFiles = [];
+    var fileObjList = [];
+    var upc = 0;
+
+    $(function () {
+        $(":file").attr('title', '  ');
+        var $loading = $('#loadingDiv').hide();
+
+        $("input[id^='fileToUpload']").change(function (e) {
+            doReCreate(e);
+        });
+        selDiv = $("#selectedFiles");
+    });
+
+
+    function doReCreate(e) {
+        upc = upc + 1;
+        handleFileSelect(e);
+
+        $("input[id^='fileToUpload']").hide();
+
+        $('<input>').attr({
+            type: 'file',
+            multiple: 'multiple',
+            id: 'fileToUpload' + upc,
+            class: 'fUpload',
+            name: 'fileUpload',
+            style: 'float: left',
+            title: '  ',
+            onchange: "doReCreate(event)"
+
+        }).appendTo('#uploaders');
+    }
+
+
+    function handleFileSelect(e) {
+
+        selDiv = document.querySelector("#selectedFiles");
+        if (!e.target.files) return;
+        files = e.target.files;
+
+        for (var i = 0; i < files.length; i++) {
+            var f = files[i];
+            selDiv.innerHTML += "<div>" + f.name + "<a onclick='removeAtt(this)'> X </a></div>";
+            storedFiles.push(f.name);
+            fileObjList.push(f);
+        }
+    }
+
+    function removeAtt(t) {
+        var serEle = $(t).parent().text().slice(0, -3);
+        alert($(t).parent().text().slice(0, -1));
+        var index = storedFiles.indexOf(serEle);
+        if (index !== -1) {
+            storedFiles.splice(index, 1);
+            fileObjList.splice(index, 1);
+        }
+        $(t).parent().remove();
+    }
+
+    //$(document).ready(function () {
+    //    $("#button1").click(function (evt) {
+    //        if (fileObjList.length > 0) {
+    //            var data = new FormData();
+    //            for (i = 0; i < fileObjList.length; i++) {
+    //                data.append("file" + i, fileObjList[i]);
+    //            }
+    //            data.append($("#StoryTitle").val(), $("#StoryText").val());
+    //            $.ajax({
+    //                type: "POST",
+    //                url: "/api/UploadFile",
+    //                contentType: false,
+    //                processData: false,
+    //                data: data,
+    //                success: function (messages) {
+    //                    for (i = 0; i < messages.length; i++) {
+    //                        alert(messages[i]);
+    //                    }
+    //                },
+    //                error: function (messages) {
+    //                    alert("Error while invoking the Web API");
+    //                }
+    //            });
+    //        }
+
+    //    });
+    //});
+</script>
+<style>
+    #selectedFiles img {
+        max-width: 200px;
+        max-height: 200px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    /*input[type='file'] {
+        color: transparent;
+    }*/
+
+    textarea {
+        max-width: 100%;
+    }
+</style>
+
+
+
+<h2>Create</h2>
+
+@using (Html.BeginForm("Create", "StoryBlock",new {storyId=TempData["storyId"]}, FormMethod.Post, new { enctype = "multipart/form-data" })) 
+{
+    @Html.AntiForgeryToken()
+    <section>
+        <div class="form-horizontal">
+            <h4>BlockModels</h4>
+            
+            @Html.ValidationSummary(true)
+
+            <br />
+            <br />
+            <div class="form-group">
+                @Html.LabelFor(model => model.caption, new { @class = "control-label col-md-2" })
+                <div style="width:560px" class="col-md-10">
+                    @Html.TextAreaFor(model => model.caption, new { @cols = 200, @rows = 3, @id = "StoryText", @style = "width:560px" })
+                    @Html.ValidationMessageFor(model => model.caption)
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.text, new { @class = "control-label col-md-2" })
+                <div style="width:560px" class="col-md-10">
+                    @Html.TextAreaFor(model => model.text, new { @cols = 200, @rows = 10, @id = "StoryText", @style = "width:560px" })
+                    @Html.ValidationMessageFor(model => model.text)
+                </div>
+            </div>
+
+            <hr />
+            <h4>Upload your images</h4>
+            <br />
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Story Images </label>
+                <div class="col-md-10">
+                    <div class="editor-field">
+                        <input type="file" name="file" />
+                        @Html.HiddenFor(model => model.imgLink)
+                        @Html.ValidationMessageFor(model => model.imgLink)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-default" />
+                </div>
+            </div>
+    </section>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index", new { id = TempData["storyId"]},null)
+</div>

@@ -1,0 +1,50 @@
+﻿@model MyStoryMaker.Models.AvailBlockModels
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Available Story Blocks</h4>
+        @Html.ValidationSummary(true)
+        <br />
+        <style>
+            .blocks .btn-primary {
+                padding: 24px 12px;
+                border-radius: 0;
+            }
+            .blocks {
+                border-spacing: 5px;
+            }
+        </style>
+        <div class=" blocks">
+            <input type="submit" value="Add New Blocks" class="glyphicon glyphicon-plus btn btn-info navbar-btn" />
+            @Html.ActionLink("Back to List", "Index", new { id = TempData["collId"], storyId = TempData["storyId"] })
+        </div>
+        @*@Html.ActionLink("Add New Blocks", "Create", "AvailBlock", new { collId = TempData["collId"], storyId = TempData["storyId"] }, new { @class = "glyphicon glyphicon-plus btn btn-info navbar-btn" })*@
+        <hr />
+        
+
+        <div style="margin-top:10px" class="row">
+            <div>
+                @if (Model.availBlockList != null)
+                {
+                    foreach (var item in Model.availBlockList)
+                    {
+                        <div class=" col-xs-6 col-md-3" style="margin-bottom:10px">
+                            <div class="thumbnail">
+                                <img src="@Url.Content(item.imgLink)" alt="Image Not Found">
+                                <div class="caption">
+                                    @if (item.caption != "") { 
+                                    <h5 class="down right" style="margin-bottom:25px">@Url.Content(item.caption)</h5>
+                                    }
+                                    <input name="AddedItems" value='@item.id' type="checkbox">
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        </div>
+    </div>
+}

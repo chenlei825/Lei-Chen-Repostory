@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story>
+  <block>
+    <id>1</id>
+    <storyId>1</storyId>
+    <caption>Once upon a time, there was a kind girl named Cinderella</caption>
+    <image>~/StoryDataBase/StoryRepos/1/1.jpg</image>
+    <text>Once upon a time, there was a kind girl named Cinderella.
+
+All of the animals loved her, especially two mice named Gus and Jaq. They'd do anything for the girl they called Cinderelly.</text>
+  </block>
+  <block>
+    <id>2</id>
+    <storyId>1</storyId>
+    <caption>Cinderella's stepmother and her two stepsisters.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/2.jpg</image>
+    <text>Cinderella lived with her stepmother and her two stepsisters, Anastasia and Drizella.
+
+They were very mean to Cinderella, making her work all day cleaning, sewing, and cooking. She tried her best to make them happy.
+
+Cinderella's stepmother, Lady Tremaine, was cold, cruel, and jealous of Cinderella’s charm and beauty.</text>
+  </block>
+  <block>
+    <id>3</id>
+    <storyId>1</storyId>
+    <caption>Cinderella's cruel and cold stepmother</caption>
+    <image>~/StoryDataBase/StoryRepos/1/3.jpg</image>
+    <text>Cinderella's stepmother, Lady Tremaine, was cold, cruel, and jealous of Cinderella’s charm and beauty.
+
+She enjoyed giving Cinderella extra chores to do, such as bathing her cat, Lucifer.</text>
+  </block>
+  <block>
+    <id>4</id>
+    <storyId>1</storyId>
+    <caption>A messenger arrived with a special invitation.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/4.jpg</image>
+    <text>One day, a messenger arrived with a special invitation. There was going to be a royal ball at the palace!
+
+The King wanted his son to find a bride. Every young woman in the kingdom was invited—including Cinderella!</text>
+  </block>
+  <block>
+    <id>5</id>
+    <storyId>1</storyId>
+    <caption>Cinderella was very excited about the ball. She found a dress.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/5.jpg</image>
+    <text>Cinderella was very excited about the ball. In the attic, she found a dress that had belonged to her mother.
+
+It was a bit old-fashioned, but Cinderella could make it beautiful!</text>
+  </block>
+  <block>
+    <id>6</id>
+    <storyId>1</storyId>
+    <caption>Lady Tremaine didn't want Cinderella to go to the ball. </caption>
+    <image>~/StoryDataBase/StoryRepos/1/6.jpg</image>
+    <text>Lady Tremaine didn't want Cinderella to go to the ball. She wanted the Prince to meet Anastasia and Drizella. Maybe he would marry one of them!
+
+Lady Tremaine kept Cinderella busy with chores that would take her all night to finish.</text>
+  </block>
+  <block>
+    <id>7</id>
+    <storyId>1</storyId>
+    <caption>The animals turned a simple dress into a fabulous gown</caption>
+    <image>~/StoryDataBase/StoryRepos/1/7.jpg</image>
+    <text>While Cinderella was working, the mice and birds fixed her dress. They added ribbons and beads that the two stepsisters had thrown away.
+
+Working together, the animals turned a simple dress into a fabulous gown!</text>
+  </block>
+  <block>
+    <id>8</id>
+    <storyId>1</storyId>
+    <caption>Cinderella's new dress,she was overjoyed when she saw it.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/8.jpg</image>
+    <text>Cinderella was overjoyed when she saw the dress. Now she could go to the ball! "Oh, thank you so much!" Cinderella said to Gus, Jaq, and the birds.</text>
+  </block>
+  <block>
+    <id>9</id>
+    <storyId>1</storyId>
+    <caption>Cinderella's  stepsisters ripped the dress and pulled off the beads.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/9.jpg</image>
+    <text>When the stepsisters saw their old ribbons and beads on Cinderella's dress, they flew into a rage.
+
+They ripped the dress and pulled off the beads. Lady Tremaine didn't stop them. Cinderella's dream of going to the ball was through.</text>
+  </block>
+  <block>
+    <id>10</id>
+    <storyId>1</storyId>
+    <caption>Cinderella got the help from her fairy godmother.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/10.jpg</image>
+    <text>Cinderella ran away to the garden to cry. Suddenly, her fairy godmother appeared.
+With a wave of her wand, she turned a pumpkin into an elegant coach. Cinderella could now go to the ball, but her dress was still ruined.</text>
+  </block>
+  <block>
+    <id>11</id>
+    <storyId>1</storyId>
+    <caption>Cinderella was  wearing a beautiful gown and sparkling glass slippers.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/11.jpg</image>
+    <text>"Bibbidi-bobbidi-boo!" said the Fairy Godmother, waving her wand again. Cinderella was now wearing a beautiful gown and sparkling glass slippers.
+
+But all of this came with a warning: When the clock struck midnight, the magic spell would wear off!</text>
+  </block>
+  <block>
+    <id>12</id>
+    <storyId>1</storyId>
+    <caption>The prince danced with Cinderella, her dream was coming true.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/12.jpg</image>
+    <text>At the ball, Prince Charming couldn't take his eyes off Cinderella.
+
+The orchestra played, and the Prince began to dance with the wonderful girl whose name he still didn't know. For Cinderella, the night was a dream come true.</text>
+  </block>
+  <block>
+    <id>13</id>
+    <storyId>1</storyId>
+    <caption>The clock began to strike midnight. Cinderella have to leave.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/13.jpg</image>
+    <text>Before too long, the clock began to strike midnight. "Good-bye!" Cinderella said, hurrying away.
+
+"Come back!" called the Prince. "I don't even know your name!" As Cinderella fled, one of her glass slippers came off.</text>
+  </block>
+  <block>
+    <id>14</id>
+    <storyId>1</storyId>
+    <caption>The Prince found Cinderella by the glass slipper.</caption>
+    <image>~/StoryDataBase/StoryRepos/1/14.jpg</image>
+    <text>The Prince sent the Grand Duke to find the girl who fit the glass slipper. Lady Tremaine locked Cinderella in the attic, but Cinderella's mouse friends freed her.
+
+Then Lady Tremaine tripped the Grand Duke, and the glass slipper shattered . . . but Cinderella had the other in her pocket. And it fit!</text>
+  </block>
+  <block>
+    <id>15</id>
+    <storyId>1</storyId>
+    <caption>Prince Charming and Cinderella lived happily ever after</caption>
+    <image>~/StoryDataBase/StoryRepos/1/15.jpg</image>
+    <text>Cinderella and the Prince were soon married. Everyone rejoiced, including Cinderella's mouse friends, who wore special outfits to the wedding.
+
+Filled with joy, Prince Charming and Cinderella lived happily ever after.</text>
+  </block>
+</story>

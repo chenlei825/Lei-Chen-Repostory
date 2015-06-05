@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<collages>
+  <collage>
+    <id>1</id>
+    <storyId>2</storyId>
+    <name>Coll1_Jasmine</name>
+    <caption>This is the first collage for the Jasmine's story</caption>
+    <blocks>
+      <block>
+        <id>1</id>
+        <storyId>2</storyId>
+      </block>
+      <block>
+        <id>2</id>
+        <storyId>2</storyId>
+      </block>
+      <block>
+        <id>3</id>
+        <storyId>2</storyId>
+      </block>
+    </blocks>
+  </collage>
+  <collage>
+    <id>2</id>
+    <storyId>2</storyId>
+    <name>Coll2_Jasmine</name>
+    <caption>This is the second collage for the Jasmine story</caption>
+    <blocks>
+      <block>
+        <id>13</id>
+        <storyId>2</storyId>
+      </block>
+      <block>
+        <id>14</id>
+        <storyId>2</storyId>
+      </block>
+      <block>
+        <id>15</id>
+        <storyId>2</storyId>
+      </block>
+      <block>
+        <id>16</id>
+        <storyId>2</storyId>
+      </block>
+    </blocks>
+  </collage>
+</collages>

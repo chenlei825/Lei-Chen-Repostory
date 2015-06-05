@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<story>
+  <block>
+    <id>1</id>
+    <storyId>3</storyId>
+    <caption>Beautiful scenery of Green Lake</caption>
+    <image>~/StoryDataBase/StoryRepos/3/14.jpg</image>
+    <text>Beautiful scenery of Green Lake</text>
+  </block>
+</story>

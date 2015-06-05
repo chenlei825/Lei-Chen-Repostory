@@ -1,0 +1,17 @@
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\ClientGUI.csprojResolveAssemblyReference.cache
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\MainWindow.baml
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\MainWindow.g.cs
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\App.g.cs
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\ClientGUI_MarkupCompile.cache
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\ClientGUI.g.resources
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\ClientGUI.Properties.Resources.resources
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\ClientGUI.csproj.GenerateResource.Cache
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\bin\Debug\ClientGUI.exe.config
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\bin\Debug\ClientGUI.exe
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\bin\Debug\ClientGUI.pdb
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\bin\Debug\Client.exe
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\bin\Debug\Newtonsoft.Json.dll
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\bin\Debug\Client.pdb
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\bin\Debug\Newtonsoft.Json.xml
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\ClientGUI.exe
+G:\DevelopProject\CourseProj\686IP\MyStoryMaker\ClientGUI\obj\Debug\ClientGUI.pdb

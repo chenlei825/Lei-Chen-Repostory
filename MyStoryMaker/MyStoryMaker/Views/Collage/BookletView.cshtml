@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = null;
+    ViewBag.Title = "Booklet For Collage";
+}
+
+<script>
+
+    var delay = 1000; //Your delay in milliseconds
+
+
+    var URL='@Url.Action("Index", "AvailBlock", new {id=1,storyId = TempData["storyId"]})';
+    //window.location = URL;
+    setTimeout(function () { location.href = 'www.google.com'; }, 2000);
+
+    var URL2 = '@Url.Action("Index", "AvailBlock", new {id=2,storyId = TempData["storyId"]})';
+    setTimeout(function () { location.href = 'www.baidu.com'; }, 4000);
+
+</script>

@@ -1,0 +1,34 @@
+﻿@model MyStoryMaker.Models.AvailBlockModels
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+    <input type="submit" value="Delete Blocks" class="glyphicon glyphicon-plus btn btn-info navbar-btn" />
+    @Html.ActionLink("Back to List", "Index", new { id = TempData["collId"], storyId = TempData["storyId"] })
+
+
+       <div style="margin-top:10px" class="row">
+        <div>
+            @if (Model.usedBlockList != null)
+            {
+                foreach (var item in Model.usedBlockList)
+                {
+                    <div class=" col-xs-6 col-md-3" style="margin-bottom:10px">
+                        <div class="thumbnail">
+                            <img src="@Url.Content(item.imgLink)" alt="Image Not Found">
+                            <div class="caption">
+                                <h5 class="down right" style="margin-bottom:25px">@Url.Content(item.caption)</h5>
+         
+                                <input name="deletedItems" value='@item.id' type="checkbox">
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+    </div>
+}
+
+

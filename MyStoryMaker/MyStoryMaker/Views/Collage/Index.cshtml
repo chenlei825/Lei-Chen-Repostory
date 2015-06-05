@@ -1,0 +1,113 @@
+﻿@model IEnumerable<MyStoryMaker.Models.CollagesModels>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create", new { storyId = TempData["storyId"] }, null) |
+    @*@Html.ActionLink("TimeLineView", "TimeLineView", "AvailBlock", new {id=1, storyId = TempData["storyId"] }, null) |*@
+    @Html.ActionLink("Back to List", "Index", "StoryMgr", new { id = TempData["storyId"]}, null)
+</p>
+
+<!--<iframe width="600" height="400" src="../StoryDataBase/FinalProj2S15.pdf"></iframe>--->
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.caption)
+        </th>
+      
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+   
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.caption)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id, storyId = TempData["storyId"] }, new { @class = "glyphicon glyphicon-edit"}) |
+            @Html.ActionLink("Details", "Details", new { id = item.id, storyId = TempData["storyId"] }, new { @class = "glyphicon glyphicon-file"}) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id, storyId = TempData["storyId"] }, new { @class = "glyphicon glyphicon-trash"}) |
+            @Html.ActionLink("Block", "Index","AvailBlock",new { id = item.id, storyId = TempData["storyId"] }, new { @class = "glyphicon glyphicon-th" })
+        </td>
+    </tr>
+}
+</table>
+
+<p>
+    Delay:
+    <input type="text" id="delay" name="delay" value="2000" size="2">
+    <input type="button" id="myBtn" onclick="refreshByDelay()" value="Start">
+    </p>  
+
+
+<iframe id="frame" align="middle" width="1200" height="1200"></iframe>
+
+<script>
+    var collList = [];
+    function GetCollList(id) {
+        collList.push(id);
+    }
+
+    @foreach (var item in Model)
+    {
+        @(string.Format("GetCollList({0});", item.id))
+    }
+
+    function runslides(link, time)
+    {
+        //alert(link);        
+        setTimeout(function () { document.getElementById('frame').src = link; }, time);
+    }
+
+    function refreshByDelay()
+    {
+        var delay = document.getElementById('delay').value;
+        var count = 0;
+        var id = 0;
+        var URL;
+        while (count < collList.length * 10) {
+            for (i = 0; i < collList.length; i++) {
+                count++;
+                id = collList[i];
+                URL = '@Url.Action("TimeLineView", "AvailBlock", new { storyId =TempData["storyId"]})' + "&id=" + id;
+
+                runslides(URL, count * delay);
+            }
+        }
+    }
+
+    refreshByDelay();
+
+    @*var delay = 2000; //Your delay in milliseconds
+
+    var count = 0;
+    var id = 0;
+    var URL;
+    while (count < collList.length*10)
+    {
+        for (i = 0; i < collList.length; i++) {
+            count++;
+            id = collList[i];
+            URL = '@Url.Action("TimeLineView", "AvailBlock", new { storyId =TempData["storyId"]})'+"&id="+id;
+            
+            runslides(URL, count * delay);
+        }
+    }*@
+        
+   
+</script>

@@ -1,0 +1,107 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="~/Content/MyStyleSheet.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/StoryMaker.css" rel="stylesheet" type="text/css">
+    @*<link href="~/Content/MyStyleSheet.css" rel="stylesheet" type="text/css">*@
+    <link href="~/Content/skin.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/PhotoGallery.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Dancing+Script:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine" />
+    <link href='http://fonts.googleapis.com/css?family=Cherry+Swash' rel='stylesheet' type='text/css'>
+
+    <title>@ViewBag.Title - My Story Maker</title>
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body class="home full-width">
+    <div id="header-right">
+        @Html.Partial("_LoginPartial")
+        <br class="clear">
+    </div>
+    <div><h1 id="homeHeader">My Story Maker</h1></div>
+    <div id="full-site-content" style="opacity: 1;">
+        <header id="masthead" class="site-header">
+            <div class="layersliderhome">
+                <div class="ls-wp-container ls-container ls-noskin" style="width: 960px; height: 340px; margin: -75px 150px; visibility: visible;">
+                    <div class="ls-inner" style="width: 960px; height: 340px; background-color: transparent;">
+                        <div class="ls-slide ls-animating" data-ls=" transition2d: all;" style="width: 960px; height: 340px; visibility: visible; display: none; left: auto; right: 0px; top: 0px; bottom: auto;">
+                            <div style="width: auto; height: auto; padding: 0px; border-width: 0px; left: 0px; top: 0px;"></div>
+                            <img style="top: 11px; left: 215px; white-space: nowrap; width: 143px; height: 235px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:left;durationin:2500;fadein:false;rotatein:120;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/blonde-girl.png" alt="">
+                            <img style="top: 37px; left: 76px; white-space: nowrap; width: 135px; height: 237px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:left;durationin:3500;easingin:easeInOutSine;fadein:false;rotatein:40;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/ginger-boy.png" alt="">
+                            <img style="top: 43px; left: 167px; white-space: nowrap; width: 133px; height: 259px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:left;durationin:3000;fadein:false;rotatein:40;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/black-boy.png" alt="">
+                            <img style="top: 19px; left: 627px; white-space: nowrap; width: 128px; height: 248px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:right;durationin:2500;delayin:2000;easingin:easeInOutCirc;fadein:false;rotatein:120;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/black-girl.png" alt="">
+                            <img style="top: 65px; left: 711px; white-space: nowrap; width: 120px; height: 252px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:right;durationin:3000;easingin:easeInOutExpo;fadein:false;rotatein:100;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/chinese-boy.png" alt="">
+                            <img style="top: 131px; left: 815px; white-space: nowrap; width: 114px; height: 196px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:right;durationin:2800;delayin:1000;easingin:easeInOutSine;fadein:false;rotatein:150;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/dog.png" alt="">
+                            <img style="top: 104px; left: -36px; white-space: nowrap; width: 1088px; height: 243px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); opacity: 1; visibility: visible;" data-ls="offsetxin:0;durationin:200;delayin:350;easingin:easeInCubic;offsetxout:0;durationout:1500;easingout:linear;" src="~/Images/balconies-07_18_v1-9-17-13tiny.png" alt="">
+                            <img style="top: 69px; left: 0px; white-space: nowrap; width: 98px; height: 116px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:2500;delayin:1000;easingin:easeInOutCirc;fadein:false;rotatein:90;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/brown-cat.png" alt="">
+                            <img style="top: 105px; left: 673px; white-space: nowrap; width: 77px; height: 87px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:2500;delayin:2500;easingin:easeInOutElastic;fadein:false;rotatein:120;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/white-cat.png" alt="">
+                            <img style="top: 238px; left: 541px; white-space: nowrap; width: 94px; height: 60px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:3200;delayin:100;easingin:easeInOutBounce;fadein:false;rotatein:20;scalexin:0.4;scaleyin:0.4;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/red-book.png" alt="">
+                            <h1 style="top: 260px; left: 561px; font-family: cherry swash; font-size: 16px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); white-space: nowrap; color: white; width: auto; height: auto; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; opacity: 1; visibility: visible;" data-ls="offsetxin:0;durationin:3000;delayin:2000;offsetxout:0;durationout:1500;">@Html.ActionLink("Admin", "Index", "StoryMgr")</h1>
+                            <img style="top: 228px; left: 344px; white-space: nowrap; width: 94px; height: 65px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;easingin:easeInOutBack;fadein:false;scalexin:0.5;scaleyin:0.5;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/blue-book.png" alt="">
+                            <h1 style="top: 252px; left: 371px; font-family: cherry swash; font-size: 16px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); white-space: nowrap; color: white; width: auto; height: auto; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; opacity: 1; visibility: visible;" data-ls="offsetxin:0;durationin:2000;delayin:2000;offsetxout:0;durationout:1500;">@Html.ActionLink("Home", "Index", "Home")</h1>
+                            <img style="top: 242px; left: 443px; white-space: nowrap; width: 93px; height: 58px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:2800;easingin:easeInOutElastic;fadein:false;scalexin:0.2;scaleyin:0.2;offsetxout:right;durationout:1500;fadeout:false;" src="~/Images/green-book.png" alt="">
+                            <h1 style="top: 263px; left: 462px; font-family: cherry swash; font-size: 16px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); color: white; width: auto; height: auto; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; opacity: 1; visibility: visible;" data-ls="offsetxin:0;durationin:3500;delayin:500;offsetxout:0;durationout:1500;">@Html.ActionLink("Develop", "Index", "StoryMgr")</h1>
+                            <img style="top: 194px; left: 461px; white-space: nowrap; width: 67px; height: 41px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;easingin:easeInOutSine;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/smallbooks_10.png" alt="">
+                            <img style="top: 192px; left: 542px; white-space: nowrap; width: 47px; height: 31px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;easingin:easeInOutElastic;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/smallbooks_07.png" alt="">
+                            <img style="top: 134px; left: 571px; white-space: nowrap; width: 55px; height: 39px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;easingin:easeInOutCirc;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/smallbooks_03.png" alt="">
+                            <img style="top: 144px; left: 436px; white-space: nowrap; width: 59px; height: 34px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;easingin:easeInOutElastic;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/smallbooks_21.png" alt="">
+                            <img style="top: 178px; left: 385px; white-space: nowrap; width: 68px; height: 47px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;easingin:easeInOutElastic;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/smallbooks_16.png" alt="">
+                            <img style="top: 129px; left: 350px; white-space: nowrap; width: 53px; height: 44px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;easingin:easeInOutBack;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/smallbooks_12.png" alt="">
+                            <img style="top: 145px; left: 509px; white-space: nowrap; width: 46px; height: 33px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:1500;easingin:easeInOutBounce;fadein:false;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/smallbooks_24.png" alt="">
+                            <img style="top: 156px; left: 400px; white-space: nowrap; width: 35px; height: 27px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:3000;fadein:false;rotatein:-90;scalexin:0.7;scaleyin:0.7;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/birds_10.png" alt="">
+                            <img style="top: 123px; left: 476px; white-space: nowrap; width: 44px; height: 29px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:3000;delayin:4000;fadein:false;rotatein:-90;scalexin:0.5;scaleyin:0.5;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/birds_06.png" alt="">
+                            <img style="top: 117px; left: 411px; white-space: nowrap; width: 44px; height: 32px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;delayin:3000;fadein:false;rotatein:90;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/birds_03.png" alt="">
+                            <img style="top: 154px; left: 586px; white-space: nowrap; width: 49px; height: 36px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); visibility: visible;" data-ls="offsetxin:0;offsetyin:top;durationin:2000;delayin:3000;fadein:false;rotatein:90;offsetxout:right;durationout:1000;fadeout:false;" src="~/Images/birds_13.png" alt="">
+                            <img style="top: 62px; left: 61px; white-space: nowrap; width: 262px; height: 74px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); opacity: 1; visibility: visible;" data-ls="offsetxin:0;durationin:10000;offsetxout:0;durationout:1000;" src="~/Images/Making-All-Gifs-One-v2_03.gif" alt="">
+                            <img style="top: 67px; left: 685px; white-space: nowrap; width: 173px; height: 93px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); opacity: 1; visibility: visible;" data-ls="offsetxin:0;durationin:12000;offsetxout:0;durationout:1000;" src="~/Images/Making-All-Gifs-One-v2_06.gif" alt="">
+                            <img style="top: 119px; left: 399px; white-space: nowrap; width: 235px; height: 70px; padding: 0px; border-width: 0px; margin-left: 0px; margin-top: 0px; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, -0.002, 0, 0, 0, 1); opacity: 1; visibility: visible;" data-ls="offsetxin:0;durationin:16000;offsetxout:0;durationout:1000;" src="~/Images/Making-All-Gifs-One-v2_09.gif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div id="main" class="wrapper">
+            <div id="primary" class=" container site-content">
+                <div class="slideshowplaceholder">&nbsp;</div>
+                <hr style:width="80%" />
+                <div id="menubar">
+                    <ul class="menulist">
+                        <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                        <li>@Html.ActionLink("About", "About", "Home")</li>
+                        <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Help", "Help", "Home")</li>
+                    </ul>
+                </div>
+
+                <br clear="all">
+                <hr style:width="80%" />
+                <div id="container" class="isotope" style="position: relative; overflow: hidden; height: 900px;">
+
+                    @Html.Partial("_InfoPartial")
+
+                </div>
+            </div>
+        </div>
+        <footer id="colophon">
+            <div class="wrapper">
+                <div class="copy widget">
+                    <div>Copyright © 2015 Lei Chen. All rights reserved.</div>
+                </div>
+            </div>
+        </footer>
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+    </div>
+</body>
+</html>
+
+s
