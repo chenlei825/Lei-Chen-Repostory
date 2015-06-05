@@ -40,6 +40,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /StoryBlock/Create
        // [Authorize(Users = "devel,super")]
+        [AllowAnonymous] 
         public ActionResult Create(int storyId)
         {
             TempData["storyId"] = storyId; 
@@ -92,6 +93,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /StoryBlock/Edit/5
         // [Authorize(Users = "devel,super")]
+         [AllowAnonymous] 
         public ActionResult Edit(int id,int storyId)
         {
             try
@@ -156,6 +158,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /StoryBlock/Delete/5
        //  [Authorize(Users = "devel,super")]
+        [AllowAnonymous] 
         public ActionResult Delete(int id, int storyId)
         {
             blockRepos = new StoryBlockRepository(storyId);
