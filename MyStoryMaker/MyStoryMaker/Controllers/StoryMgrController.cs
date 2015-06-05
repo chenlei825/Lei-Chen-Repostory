@@ -23,7 +23,7 @@ namespace MyStoryMaker.Controllers
         //private FileUpDownHelper fileHelper = new FileUpDownHelper("http://localhost:50417/api/File");
         
         // GET: /StoriesMrg/
-       [Authorize(Users="admin,devel,super")]
+       //[Authorize(Users="admin,devel,super")]
         public ActionResult Index()
         {
             achiveRepos = new AchiveRepository();
@@ -58,7 +58,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /StoriesMrg/Create
         [HttpGet]
-        [Authorize(Users="devel,super")]
+        //[Authorize(Users="devel,super")]
         public ActionResult Create()
         {
             return View();
@@ -104,7 +104,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /StoriesMrg/Edit/5
         [HttpGet]
-        [Authorize(Users = "devel,super")]
+        //[Authorize(Users = "devel,super")]
         public ActionResult Edit(int id)
         {
 
@@ -145,7 +145,7 @@ namespace MyStoryMaker.Controllers
         }
 
         // GET: /StoriesMrg/Delete/5
-        [Authorize(Users="admin,super")]
+        //[Authorize(Users="admin,super")]
         public ActionResult Delete(int id)
         {
             StoryModels story = storyRepos.GetStoryById(id);
@@ -206,7 +206,7 @@ namespace MyStoryMaker.Controllers
 
 
         // GET: /StoriesMrg/Delete/5
-        [Authorize(Users = "admin,super")]
+        //[Authorize(Users = "admin,super")]
         public ActionResult Achive(int id)
         {
             StoryModels story = storyRepos.GetStoryById(id);
