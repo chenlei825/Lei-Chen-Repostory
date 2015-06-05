@@ -21,7 +21,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /Collage/
         //id:StoryId
-        [Authorize(Users = "devel,super")]
+        //[Authorize(Users = "devel,super")]
         public ActionResult Index(int id)
         {
             collRepos = new CollageRepository(id);
@@ -51,7 +51,7 @@ namespace MyStoryMaker.Controllers
         }
 
         // GET: /Collage/Create
-         [Authorize(Users = "devel,super")]
+         //[Authorize(Users = "devel,super")]
         public ActionResult Create(int storyId)
         {
             TempData["storyId"] = storyId; 
@@ -63,7 +63,7 @@ namespace MyStoryMaker.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Users = "devel,super")]
+        //[Authorize(Users = "devel,super")]
         public ActionResult Create([Bind(Include="name,caption")] CollagesModels collage)
         {
             try
@@ -84,7 +84,7 @@ namespace MyStoryMaker.Controllers
         }
 
         // GET: /Collage/Edit/5
-         [Authorize(Users = "devel,super")]
+        // [Authorize(Users = "devel,super")]
         public ActionResult Edit(int? id,int storyId)
         {
             if (id == null)
@@ -148,7 +148,7 @@ namespace MyStoryMaker.Controllers
         }
 
         // GET: /Collage/Delete/5
-         [Authorize(Users = "devel,super")]
+         //[Authorize(Users = "devel,super")]
         public ActionResult Delete(int? id,int storyId)
         {
             if (id == null)
