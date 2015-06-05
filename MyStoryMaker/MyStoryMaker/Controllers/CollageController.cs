@@ -22,6 +22,7 @@ namespace MyStoryMaker.Controllers
         // GET: /Collage/
         //id:StoryId
         //[Authorize(Users = "devel,super")]
+         [AllowAnonymous] 
         public ActionResult Index(int id)
         {
             collRepos = new CollageRepository(id);
@@ -52,6 +53,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /Collage/Create
          //[Authorize(Users = "devel,super")]
+          [AllowAnonymous] 
         public ActionResult Create(int storyId)
         {
             TempData["storyId"] = storyId; 
@@ -64,6 +66,7 @@ namespace MyStoryMaker.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         //[Authorize(Users = "devel,super")]
+         [AllowAnonymous] 
         public ActionResult Create([Bind(Include="name,caption")] CollagesModels collage)
         {
             try
@@ -85,6 +88,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /Collage/Edit/5
         // [Authorize(Users = "devel,super")]
+         [AllowAnonymous] 
         public ActionResult Edit(int? id,int storyId)
         {
             if (id == null)
@@ -149,6 +153,7 @@ namespace MyStoryMaker.Controllers
 
         // GET: /Collage/Delete/5
          //[Authorize(Users = "devel,super")]
+          [AllowAnonymous] 
         public ActionResult Delete(int? id,int storyId)
         {
             if (id == null)
