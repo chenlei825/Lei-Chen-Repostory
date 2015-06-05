@@ -39,7 +39,7 @@ namespace MyStoryMaker.Controllers
         }
 
         // GET: /StoryBlock/Create
-        [Authorize(Users = "devel,super")]
+       // [Authorize(Users = "devel,super")]
         public ActionResult Create(int storyId)
         {
             TempData["storyId"] = storyId; 
