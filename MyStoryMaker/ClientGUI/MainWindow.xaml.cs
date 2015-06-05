@@ -30,11 +30,11 @@ namespace ClientGUI
         public MainWindow()
         {
             InitializeComponent();
-            logout.IsEnabled = false;
-            getStory.IsEnabled = false;
-            download.IsEnabled = false;
-            browse.IsEnabled = false;
-            upload.IsEnabled = false;
+           // logout.IsEnabled = false;
+            //getStory.IsEnabled = false;
+            //download.IsEnabled = false;
+            //browse.IsEnabled = false;
+            //upload.IsEnabled = false;
         }
 
         private void browse_Click(object sender, RoutedEventArgs e)
