@@ -91,7 +91,7 @@ namespace MyStoryMaker.Controllers
         }
 
         // GET: /StoryBlock/Edit/5
-         [Authorize(Users = "devel,super")]
+        // [Authorize(Users = "devel,super")]
         public ActionResult Edit(int id,int storyId)
         {
             try
@@ -155,7 +155,7 @@ namespace MyStoryMaker.Controllers
         }
 
         // GET: /StoryBlock/Delete/5
-         [Authorize(Users = "devel,super")]
+       //  [Authorize(Users = "devel,super")]
         public ActionResult Delete(int id, int storyId)
         {
             blockRepos = new StoryBlockRepository(storyId);
